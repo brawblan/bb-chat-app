@@ -1,0 +1,82 @@
+.avatar-container {
+  text-align: center;
+  margin: 20px 0 40px;
+}
+
+.avatar-icon {
+  max-width: 100px;
+}
+
+.avatar-b-radius {
+  border-radius: 50%;
+}
+
+.avatar-text {
+  color: var(--sky-blue);
+  transition: ease-in-out 0.2s;
+  line-height: 1.5;
+  cursor: pointer;
+}
+
+.avatar-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.avatar-list .create-avatar {
+  transition: ease-in-out 0.1s;
+  opacity: 0.8;
+}
+.avatar-list .create-avatar:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+.avatar-list .create-avatar.light {
+  background: var(--charcoal);
+}
+
+.switch-field {
+	display: flex;
+	margin: 0 auto 36px;
+	overflow: hidden;
+}
+
+.switch-field input {
+	position: absolute !important;
+	clip: rect(0, 0, 0, 0);
+	height: 1px;
+	width: 1px;
+	border: 0;
+	overflow: hidden;
+}
+
+.switch-field label {
+	background-color: #e4e4e4;
+	color: black;
+	font-size: 14px;
+	line-height: 1;
+	text-align: center;
+	padding: 8px 16px;
+	margin-right: -1px;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.1);
+	transition: all 0.1s ease-in-out;
+}
+
+.switch-field label:hover {
+	cursor: pointer;
+}
+
+.switch-field input:checked + label {
+	background-color: var(--success);
+	box-shadow: none;
+  color: white;
+}
+
+.switch-field label:first-of-type {
+	border-radius: 4px 0 0 4px;
+}
+
+.switch-field label:last-of-type {
+	border-radius: 0 4px 4px 0;
+}
