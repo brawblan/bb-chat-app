@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import React, { useContext, useState, useEffect } from 'react'
 import { UserContext } from '../../App'
 import { formatDate } from '../../helpers/dateFormat'

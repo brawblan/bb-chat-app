@@ -9,5 +9,5 @@ export const formatDate = (dateObj) => {
     hour12: true,
   }
 
-  return date.toLocaleString('en-US', date)
+  return date.toLocaleString('en-US', options)
 }
