@@ -1,7 +1,8 @@
 import axios from 'axios'
 import io from 'socket.io-client'
 
-const BASE_URL = 'http://localhost:3005/v1'
+// const BASE_URL = 'http://localhost:3005/v1'
+const BASE_URL = 'https://mac-chat-api-brandon-updates.herokuapp.com/'
 
 // accounts
 const URL_ACCOUNT = `${BASE_URL}/account`
